@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+/* ========== Main Header ========== */
+
+#mainheader {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#mainheader .container {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
+
+#header-logo {
+  font-size: 0; /* Mitigates extra pixels from whitespace */
+  flex-grow: 1;
+}
+
+#header-logo > img {
+  height: 50px;
+}
+
+#header-nav span {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#header-nav a {
+  color: white;
+}
