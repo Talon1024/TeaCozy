@@ -1,10 +1,18 @@
+/* ========== Global Styles ========== */
+
 body {
   margin: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
 }
 
 /* ========== Main Header ========== */
 
 #mainheader {
+  font-family: sans-serif;
   background-color: black;
   border-bottom: 1px solid seashell;
   position: fixed;
@@ -17,8 +25,6 @@ body {
 }
 
 #mainheader .container {
-  align-items: center;
-  display: flex;
   flex-grow: 1;
   margin-left: 10px;
 }
@@ -33,7 +39,6 @@ body {
 }
 
 #header-nav span {
-  font-family: sans-serif;
   font-size: 20px;
   margin: 10px;
 }
@@ -43,3 +48,35 @@ body {
 }
 
 /* ========== Main Content - Our Mission ========== */
+
+#maincontent {
+  font-family: sans-serif;
+  margin-top: 70px;
+  background-color: black;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+#mission > .blackbox {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#mission .blackbox > h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#mission .blackbox > h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
