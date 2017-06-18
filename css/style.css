@@ -56,6 +56,11 @@ body {
   color: white;
 }
 
+.blackbox {
+  background-color: black;
+  text-align: center;
+}
+
 /* ========== Main Content - Our Mission ========== */
 
 #mission {
@@ -66,8 +71,6 @@ body {
 }
 
 #mission > .blackbox {
-  background-color: black;
-  text-align: center;
   width: 100%;
 }
 
@@ -101,6 +104,7 @@ body {
 #featured > .container {
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .tea-feature {
@@ -112,4 +116,33 @@ body {
   width: 300px;
   height: 200px;
   display: block;
+  margin-bottom: 10px;
+}
+
+.tea-feature h3 {
+  margin-top: 10px;
+}
+
+/* ========== Main Content - Locations ========== */
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+  text-align: center;
+}
+
+#locations .row {
+  display: flex;
+}
+
+#locations .blackbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*height: 300px;*/
+  width: 300px;
+  margin: 0 20px;
 }
