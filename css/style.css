@@ -120,14 +120,14 @@ body {
 }
 
 .tea-feature h3 {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 /* ========== Main Content - Locations ========== */
 
 #locations {
   width: 1200px;
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
   background-image: url("../images/img-locations-background.jpg");
   justify-content: center;
@@ -146,3 +146,9 @@ body {
   width: 300px;
   margin: 0 20px;
 }
+
+#locations .blackbox > h3 {
+  font-weight: normal;
+}
+
+/* ========== Main Content - Footer ========== */
